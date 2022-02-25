@@ -1,13 +1,7 @@
 import '../styles/globals.css'
-import Layout from '../components/Layout/Layout'
-import 'semantic-ui-css/semantic.min.css'
 
 function MyApp({ Component, pageProps }) {
-  return (
-    <Layout>
-      <Component {...pageProps} />
-    </Layout>
-  )
+  return <Component {...pageProps} />
 }
 
 export default MyApp
