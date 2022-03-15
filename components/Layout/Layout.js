@@ -6,6 +6,7 @@ import Router from 'next/router'
 
 function Layout({title, children, keywords, description}){
 
+    //progress bar
     Router.onRouteChangeStart = () => nprogress.start()
     Router.onRouteChangeComplete = () => nprogress.done()
     Router.onRouteChangeError = () => nprogress.done()
